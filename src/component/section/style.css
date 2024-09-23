@@ -1,0 +1,60 @@
+.container-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 130px;
+}
+.sectionChild {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 48px 0;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 16px 32px 0px #bababa4a;
+}
+.sectionTag {
+    font-size: 24px;
+    font-weight: 400;
+    color: #4E4B66;
+}
+.sectionTag1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #5F2EEA;
+}
+.sectionGchild {
+    display: flex;
+    gap: 16px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+input {
+    width: 306px;
+    height: 53px;
+    border: 2px #DEDEDE solid;
+    border-radius: 6px;
+    padding-left: 24px;
+}
+input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: #A0A3BD;
+}
+button {
+    width: 150px;
+    height: 53px;
+    background-color: #5F2EEA;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    color: white;
+}
+.sectionTag2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6E7191;
+    letter-spacing: 1px;
+}

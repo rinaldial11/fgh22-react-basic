@@ -1,0 +1,33 @@
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 104px;
+    padding: 0 130px;
+}
+
+.homeList {
+    display: flex;
+    align-items: center;
+    color: #414141;
+    font-size: 16px;
+    font-weight: 600;
+}
+.ticHome {
+    margin-right: 72px;
+}
+.listMov {
+    margin-left: 64px;
+}
+.listHo {
+    margin-left: 72px;
+}
+button {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    color: #F7F7FC;
+    background-color: #5F2EEA;
+    border: none;
+    border-radius: 6px;
+}

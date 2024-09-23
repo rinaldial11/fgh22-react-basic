@@ -1,0 +1,17 @@
+.container-left-sign {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B156BCC;
+    background-image: url(/src/assets/image/avenger.png);
+    background-size: cover;
+}
+
+.hashtag-sign {
+    color: #FFFF;
+    opacity: 80%;
+    font-size: 48px;
+    font-weight: 300;
+}

@@ -1,0 +1,37 @@
+.container-main {
+    background-color: #F5F6F8;
+    padding-top: 64px;
+    padding-bottom: 100px;
+    padding-left: 130px;
+    padding-right: 25px;
+}
+
+.mainChild {
+    display: flex;
+    justify-content: space-between;
+}
+.mainGchild {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nowShow {
+    font-size: 24px;
+    font-weight: 700;
+    color: #5F2EEA;
+}
+
+.viewAll {
+    font-size: 16px;
+    font-weight: 700;
+    color: #5F2EEA;
+    padding-right: 105px;
+}
+.mainChild1 {
+    width: 100%;
+    display: flex;
+    gap: 45px;
+    margin-top: 56px;
+    overflow-x: scroll;
+    scroll-snap-type: mandatory;
+}
